@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (edtSearch.getText().toString().isEmpty())
                 {
-                    Toast.makeText(MainActivity.this, "Fill in the blank", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Must be fill the box", Toast.LENGTH_SHORT).show();
                     setVisibleApiListView();
                 }
                 else {performSearch();}
